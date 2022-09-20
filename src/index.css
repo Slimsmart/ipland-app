@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,400;1,300&family=Montserrat:wght@500;600&family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500;1,600;1,700&display=swap");
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  font-family: "Open Sans", "Poppins";
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Open Sans", "Poppins", sans-serif;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size-sm {
+  font-size: 12px;
+}
+
+.size-md {
+  font-size: 20px;
+  font-family: "Open Sans";
+  text-transform: capitalize;
+}
+
+.size-xl {
+  font-size: 40px;
+  font-family: "Open Sans";
+  text-transform: capitalize;
+}
+
+.size-sm {
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-transform: capitalize;
+}
+
+.color-white {
+  color: white;
+}
+
+.bottom-border-grey {
+  border-bottom: 1px solid #ddd;
+}
+
+.border-grey {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+.search-btn {
+  margin: 1rem 0;
+}
+
+.error {
+  color: red;
+  font-family: "Open Sans", "Poppins", sans-serif;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.justify-space-btwn {
+  justify-content: space-between;
+}
+
+.px {
+  padding: 0 2rem;
+}
+
+.py {
+  padding: 2rem 0;
+}
+
+.mx {
+  margin: 0 1rem;
+}
+
+.my-md {
+  margin: 2rem 0;
+}
+
+.my-sm {
+  margin: 1rem 0;
+}
+.ip-place-bottom {
+  justify-content: flex-end;
+  font-size: 40px;
+  margin-bottom: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-size-md {
+  width: 100px;
+  height: 100px;
+}
